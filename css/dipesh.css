@@ -1,0 +1,176 @@
+body
+{
+background-color: skyblue;
+text-align: center;
+font-family: Ariel, Times New Roman;
+background-image: url("123.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+header{
+	border: 3px solid blue;
+	padding: 5px 2px;
+	margin-top: 45px ;
+
+}
+header a{
+ color:white;
+ text-decoration:none;
+ padding: 20px 7px ;
+margin: 70px;
+font-size: 22px;
+}
+header a:hover{
+
+	background-color: black;
+padding: 6px;
+}
+.center{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	}
+	.block{
+		display: flex;
+		flex-direction: column;
+		height: 300px;
+		margin-top: 10px;
+	}
+
+	.block img{
+		height: 150px;
+		border-radius: 20px;
+		
+	}
+
+.top{
+	display: flex;
+	flex-direction: row;
+	padding: 30px 30px;
+
+	}
+	.leftcolumn img{
+		height:450px;
+		width: 300px;
+		padding: 2px 2px;
+	}
+.block2{
+	height: 150px;
+	background-color: blue;
+	width:100%;
+}
+
+
+.leftcolumn{
+	width: 38%;
+	 
+	height: 400px;
+	
+
+}
+.righttitle{
+	width: 70%;
+	background-color: skyblue;
+	margin-top: 0px;
+	text-align: left;
+	padding: 2px 2px;
+	margin: 2px 2px;
+	}
+	image{
+		border-radius: 50px;
+	}
+.righttitle h2{
+	padding-left: 40px;
+}
+.rightcolumn{
+	width: 90%;
+	background-color: skyblue;
+	height: 350px;
+	display: flex;
+	flex-direction: row;
+	padding: 40px 40px;
+}	
+.column{
+	width: 33%;
+	display: flex;
+	flex-direction: column;
+}
+.subtitle{
+	color: red;
+}
+.content{
+margin-top: 0px;
+	color: blue;
+}
+
+
+.photo {
+	transition-property: width;
+	image-rendering: 
+	width:30px;
+	height: 30px; 
+	
+}
+
+	font-size: 15px;
+
+}
+header{
+	font-size: 20px;
+	background:red; 
+	padding: 1% 1%; color: white;
+
+}
+.box{
+	display: flex;
+	flex-direction: row;
+	padding: 30px 30px;
+	justify-content: space-between;
+
+}
+
+.leftbox{
+	width: 50%;
+	
+	display: flex;
+	flex-direction: row;
+	padding: 40px 40px;
+}
+.edu{
+	margin-top: 0px;
+	font-size: 40px;
+	background-color:skyblue;
+	height: 400px;
+
+}
+.right{
+	width: 20%;
+	height: 400px;
+	background-color: skyblue;
+	font-size: 40px;
+	flex-direction: row;
+	padding: 
+}
+.section{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+	
+.form{
+	margin:5%;
+	width: 30%;
+	text-align: left;
+	font-size: 25px;
+	height: 400px;
+	background-color: skyblue;
+
+}
+h6{
+	margin: 0px;
+	
+}
+footer{
+	background-color: red;
+}
